@@ -38,7 +38,7 @@ export default function Footer() {
                     <h3 className="text-xl font-semibold mb-2">Event Location</h3>
                     <div className="w-full h-64 md:h-80">
                         <iframe
-                            src={`https://www.google.com/maps/embed/v1/place?q=${lat},${lng}&key=AIzaSyA0qkxAQx7FEKXcUFsC9Y56361qXePgw3k`}
+                            src={`https://www.google.com/maps/embed/v1/place?q=${lat},${lng}&key=none`}
                             width="100%"
                             height="100%"
                             frameBorder="0"

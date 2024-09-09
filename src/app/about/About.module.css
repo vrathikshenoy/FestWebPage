@@ -1,0 +1,33 @@
+/* About.module.css */
+.main {
+  height: 100%;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: #6CB4EE; /* Accent color */
+}
+
+.text {
+  font-size: 20px;
+  transition: transform 0.3s ease, font-style 0.3s ease;
+}
+
+.text.highlight {
+  font-style: italic;
+}
+
+.details, .sponsors, .contact {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #2d2d2d; /* Slightly lighter dark background */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
